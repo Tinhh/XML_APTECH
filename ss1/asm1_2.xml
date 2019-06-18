@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tintuc24h>
+
+    <category>
+        <category_name>Tin tức trong ngày</category_name>
+        <category_news>
+            <hot_day>
+                <new>
+                    <title_1>
+                        <![CDATA[<a href="" title="">
+                Truy tìm mẹ rẻ xăm trổ xách con nhỏ vài tháng tuổi lủng lẳng trên tay </a>]]></title_1>
+                    <image>
+                        <![CDATA[<a href="" title="">
+                img1.jpg </a>]]>
+                    </image>
+                    <content>Hình ảnh người mẹ trẻ xăn trổ túm áo xách con nhỏ vài tháng tuổi lủng lẳng trên tay khiến dư luận phẫn nộ</content>
+                    <label> <![CDATA[<a href="" title="">Bạo Hành trẻ em</a>]]></label>
+                    <title_2>
+                        <![CDATA[<a href="" title="">
+                Phó bí thư tỉnh sóc trăng ra nước ngoài...</a>]]></title_2>
+                    <title_3>
+                        <![CDATA[<a href="" title="">
+                Chính phủ rút đề xuất trọn ngày thương binh liệt sĩ...</a>]]></title_3>
+                    <title_4>
+                        <![CDATA[<a href="" title="">
+                Ông trần Vinh Tuyến thôi phụ trách mảng đô thị...</a>]]></title_4>
+                </new>
+            </hot_day>
+        </category_news>
+    </category>
+
+    <category>
+        <category_name>
+            Tin Hà Nội
+        </category_name>
+        <category_link>
+            ....
+        </category_link>
+        <category_news>
+            <new>
+
+            </new>
+        </category_news>
+    </category>
+
+    <category>
+        <category_name>
+            Tin TP.HCM
+        </category_name>
+        <category_link>
+            ....
+        </category_link>
+        <category_news>
+            <new>
+
+            </new>
+        </category_news>
+    </category>
+
+    <category>
+        <category_name>
+            Tin Thời TIết
+        </category_name>
+        <category_link>
+            ....
+        </category_link>
+        <category_news>
+            <new>
+
+            </new>
+        </category_news>
+    </category>
+
+
+</tintuc24h>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="cart">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="date" type="xsd:string" />
+                <xsd:element name="grand_total" type="xsd:integer" />
+
+                <xsd:element name="customer">
+                    <xsd:complexType>
+                        <xsd:sequence>
+
+                            <xsd:element name="c_name" type="xsd:string" />
+
+                            <xsd:element name="c_tel">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:integer">
+                                        <xsd:minLength value="10" />
+                                        <xsd:maxLength value="11" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+
+                            <xsd:element name="c_address">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:minLength value="5" />
+                                        <xsd:maxLength value="200" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="item">
+                    <xsd:complexType>
+                        <xsd:sequence>
+
+                            <xsd:element name="product"  maxOccurs="10">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="p_name">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:minLength value="5" />
+                                                    <xsd:maxLength value="200" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+
+                                        <xsd:element name="qty">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:integer">
+                                                    <xsd:minInclusive value="1" />
+                                                    <xsd:maxInclusive value="10" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+
+                                        <xsd:element name="price">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:integer">
+                                                    <xsd:minLength value="5" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

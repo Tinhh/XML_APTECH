@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE note SYSTEM "demo.dtd">
+<note>
+    <to>HaLong</to>
+    <to>CatBa</to>
+    <to>CoThanh</to>
+    <from>Hanoi</from>
+    <heading>CHuyen phat nhanh</heading>
+    <body>
+        <title>Hang de vo, can than</title>
+        <content>Chuyen phat chu y hang hoa</content>
+    </body>
+</note>

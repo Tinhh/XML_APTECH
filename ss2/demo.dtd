@@ -1,0 +1,20 @@
+<!ELEMENT note (to+,from,heading,body)>
+        <!ELEMENT to (#PCDATA)>
+        <!ELEMENT from (#PCDATA)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT body (title,(content|desc))>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT content (#PCDATA)>
+        <!ELEMENT desc (#PCDATA)>
+<!ELEMENT cart (date,grand_total,customer,item)>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT grand_total (#PCDATA)>
+        <!ELEMENT customer (c_name,c_tel,c_address)>
+        <!ELEMENT c_name (#PCDATA)>
+        <!ELEMENT c_tel (#PCDATA)>
+        <!ELEMENT c_address (#PCDATA)>
+        <!ELEMENT item (product+)>
+        <!ELEMENT product (p_name,qty,price)>
+        <!ELEMENT p_name (#PCDATA)>
+        <!ELEMENT qty (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>

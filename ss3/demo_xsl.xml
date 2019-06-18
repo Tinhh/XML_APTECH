@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="demo_xsl.xsl" ?>
+<cart>
+
+    <date>22/2/2022</date>
+    <grand_total>20000000</grand_total>
+    <customer>
+        <c_name>Bui Van Tinh</c_name>
+        <c_tel>0972030182</c_tel>
+        <c_address>8 ton that thuyet</c_address>
+    </customer>
+    <item>
+        <product>
+            <p_name>TV SONY 59inch</p_name>
+            <qty>1</qty>
+            <price>20000000</price>
+        </product>
+
+        <product>
+            <p_name>TV SONY 59inch</p_name>
+            <qty>1</qty>
+            <price>20000000</price>
+        </product>
+
+        <product>
+            <p_name>TV SONY 59inch</p_name>
+            <qty>1</qty>
+            <price>20000000</price>
+        </product>
+
+    </item>
+</cart>

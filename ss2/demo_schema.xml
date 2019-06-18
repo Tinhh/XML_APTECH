@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="demo_schema.xsd">
+    <name>Mario</name>
+    <age>20</age>
+    <gender>Male</gender>
+    <address>27 Ba Trieu</address>
+</person>
